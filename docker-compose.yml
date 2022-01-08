@@ -51,7 +51,7 @@ services:
     working_dir: /var/www/Sites
     volumes:
       - /home/fernando/Sites:/var/www/Sites
-      - ./docker-compose/nginx/conf/consutorio.conf:/etc/nginx/conf.d/consutorio.conf
+      - ./docker-compose/nginx/conf/:/etc/nginx/conf.d/
     ports:
       - 80:80
       - 443:443
