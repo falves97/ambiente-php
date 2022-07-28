@@ -1,4 +1,4 @@
 FROM nginx:latest
 
-COPY ./docker-compose/nginx/certs/nginx-selfsigned.crt  /etc/ssl/certs/nginx-selfsigned.crt
-COPY ./docker-compose/nginx/certs/nginx-selfsigned.key /etc/ssl/private/nginx-selfsigned.key
+COPY ./certs/fabrikam.crt  /etc/ssl/certs/fabrikam.crt
+COPY ./certs/fabrikam.key /etc/ssl/private/fabrikam.key
